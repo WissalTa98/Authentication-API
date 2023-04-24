@@ -72,7 +72,6 @@ namespace DevAuth.Controllers
 				UserName = model.Username,
 				FirstName = model.FirstName,
 				LastName = model.LastName
-				//Role = model.UserRole,
 			};
 			if (model.Password != model.ConfirmPassword)
 			{

@@ -20,9 +20,8 @@ namespace DevAuth.Model
 		[Required(ErrorMessage = "FirstName is required")]
 		public string? FirstName { get; set; }
 
-		[Required(ErrorMessage = "LasttName is required")]
+		[Required(ErrorMessage = "LastName is required")]
 		public string? LastName { get; set; }
 
-		//public UserRoles? UserRole { get; set; }
 	}
 }
